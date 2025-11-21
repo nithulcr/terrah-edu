@@ -1273,7 +1273,9 @@ div#modal-video-container {
   will-change: transform;
   margin-bottom: 32px;
 }
-
+.slider-row:last-child{
+    margin: 0;
+}
 .slide {
   background: linear-gradient(360deg, var(--bg-dark), #00000065);
   border-radius: 18px;
@@ -1623,6 +1625,10 @@ align-items: center;
 }
 
 @media (max-width: 990px) {
+    .wealth-right .section-header{
+        text-align: center;
+        margin: auto;
+    }
 .community-section .section-header{
 
     grid-template-columns: 1fr;
@@ -1701,9 +1707,14 @@ align-items: center;
 }
 
 @media (max-width: 768px) {
+    .community-section .section-header *{
+        text-align: center!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .hero-title {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .hero-description {
@@ -1792,11 +1803,10 @@ align-items: center;
     }
 
 
-
-        .contact-section,
-        .community-hero, .testimony-section {
-            padding: 150px 0px;
+        .community-hero{
+            padding: 150px 0px 60px 0;
         }
+
 
     .journey-container .section-header {
     padding: 100px 0 70px 0;
@@ -1822,6 +1832,12 @@ align-items: center;
 
     bottom: 10px;
 
+}
+.trade-card img, .trade-card{
+    border-radius: 20px;
+}
+.contact-section, .testimony-section{
+    padding: 60px 0px 60px 0;
 }
 }
 
@@ -1921,12 +1937,12 @@ align-items: center;
 
 
 .trade-card {
-    width: 28.77%;
-    min-width: 28.77%;
+    width: 31%;
+    min-width: 31%;
 }
 .trade-cards {
 
-    gap: 5%;
+    gap: 7%;
 
 }
 .community-hero .hero-content {
@@ -1972,6 +1988,23 @@ align-items: center;
 }
 .footer-links{
     flex-direction: column;
+}
+.trade-card img, .trade-card{
+    border-radius: 18px;
+}
+.trade-section {
+    padding: 40px 0 0px 0;
+
+}
+.wealth-row{
+    gap: 40px;
+}
+.wealth-left img{
+    border-radius: 60px 20px;
+}
+
+.footer-content {
+    background-color: transparent;
 }
 }
 
