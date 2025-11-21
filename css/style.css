@@ -53,7 +53,7 @@ body:before {
     background-size:700px;
     background-repeat: repeat;
     background-position: top center;
-    opacity: .3;
+    opacity: .6;
 
 }
 /* 
@@ -966,19 +966,19 @@ main {
 .trade-cards {
   display: flex;
   justify-content: center;
-  gap:4%;
+  gap:6%;
   will-change: transform;
   align-items: stretch;
   margin-left: 10%;
 }
 
 .trade-card {
-  width: 14%;
-  min-width: 14%;
+  width: 16%;
+  min-width: 16%;
 transform: translateY(40px);
   height: 100%;
-  background: linear-gradient(132deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.181);
+  border-radius: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
