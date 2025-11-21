@@ -3,7 +3,7 @@
 :root {
     --primary-color: #FDCFCA;
     --primary-dark: #ff5833;
-    --bg-dark: #202020;
+    --bg-dark: #00030d;
     --text-light: #FFFFFF;
     --text-muted: #D7D6D6;
     --border-color: rgba(255, 255, 255, 0.2);
@@ -1277,7 +1277,7 @@ div#modal-video-container {
     margin: 0;
 }
 .slide {
-  background: linear-gradient(360deg, var(--bg-dark), #00000065);
+  background: linear-gradient(360deg, var(--bg-dark), #000000);
   border-radius: 18px;
   box-shadow: 0 8px 32px rgba(25,25,50,0.18);
   max-width: 450px;
@@ -1441,7 +1441,7 @@ align-items: center;
     padding: 60px 0;
 
         padding: 60px;
-    background:#ff67461a;
+    background:#ff67460a;
     backdrop-filter: blur(20px);
     border-radius: 100px 40px;
 
